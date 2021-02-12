@@ -1,0 +1,22 @@
+/* FONTS */
+
+@font-face {
+  font-family: 'Josefin_Sans';
+  src: url('../fonts/JosefinSans/josefinsans-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Josefin_Sans';
+  src: url('../fonts/JosefinSans/josefinsans-bold-webfont.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Josefin_Sans';
+  src: url('../fonts/JosefinSans/josefinsans-light-webfont.woff2') format('woff2');
+  font-weight: lighter;
+  font-style: normal;
+}
