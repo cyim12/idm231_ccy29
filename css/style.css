@@ -22,7 +22,8 @@
 }
 
 body {
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(20, 20, 20);
+  margin: 2rem;
 }
 
 h1.title {
@@ -32,4 +33,70 @@ h1.title {
   padding: 2rem;
 }
 
+.wheel {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15%;
+  grid-template-rows: 30% 30% 30% 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position:absolute;
+    left: calc(50% - 25px);
+    top: calc(50% - 25px);
+    height: 50px;
+    width: 50px;
+    border: 1px dotted #c7d327;
+    border-radius: 50%;
+}
 
+img {
+  border-radius: 50%;
+}
+
+#MichaelScott {
+  transform: translateX(300px);
+}
+
+#JimHalpert {
+    transform: rotate(30deg) translateX(300px);
+}
+
+#PamBeesly {
+    transform: rotate(60deg) translateX(300px);
+}
+
+#DwightShrute {
+  transform: rotate(90deg) translateX(300px);
+}
+
+#AngelaMartin {
+  transform: rotate(120deg) translateX(300px);
+}
+
+#KevinMalone {
+  transform: rotate(150deg) translateX(300px);
+}
+
+#KellyKapoor {
+  transform: rotate(180deg) translateY(-300px);
+}
+
+#PhyllisVance {
+  transform: rotate(210deg) translateX(300px);
+}
+
+#StanleyHudson {
+  transform: rotate(240deg) translateX(300px);
+}
+
+#OscarNunez {
+  transform: rotate(270deg) translateX(300px);
+}
+
+#AndyBernard {
+  transform: rotate(300deg) translateX(300px);
+}
+
+#DarrylPhilbin {
+  transform: rotate(330deg) translateX(300px);
+}
