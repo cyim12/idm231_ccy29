@@ -20,3 +20,16 @@
   font-weight: lighter;
   font-style: normal;
 }
+
+body {
+  background-color: rgb(41, 41, 41);
+}
+
+h1.title {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 2rem;
+}
+
+
