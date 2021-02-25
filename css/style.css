@@ -23,7 +23,7 @@
 
 body {
   background-color: rgb(20, 20, 20);
-  margin: 2rem;
+  margin: 0 0 9rem 0;
 }
 
 h1.title {
@@ -34,17 +34,23 @@ h1.title {
 }
 
 .wheel {
-  position:absolute;
-  left: calc(50% - 25px);
-  top: calc(50% - 25px);
-  height: 50px;
-  width: 50px;
-  border: 1px dotted #c7d327;
-  border-radius: 50%;
+  position: absolute;
+    left: calc(48% - 20px);
+    top: calc(50% - 25px);
+    height: 50px;
+    width: 50px;
+    border: 2px dotted #000000;
+    border-radius: 50%
 }
 
-img {
-  border-radius: 50%;
+.characters {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type='image'] {
+  border-radius: 40%;
   position:absolute;
 }
 
@@ -94,4 +100,16 @@ img {
 
 #DarrylPhilbin {
   transform: rotate(330deg) translateX(300px);
+}
+
+.birthday {
+  text-align: center;
+  position: relative;
+  padding: 20rem;
+}
+
+h4.bday {
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  size: 20pt;
 }
