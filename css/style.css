@@ -23,51 +23,128 @@
 
 body {
   background-color: rgb(20, 20, 20);
-  margin: 0 0 9rem 0;
 }
 
 h1.title {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  padding: 2rem;
-}
-
-.wheel {
-  position: absolute;
-    left: calc(48% - 20px);
-    top: calc(50% - 25px);
-    height: 50px;
-    width: 50px;
-    border: rgb(20, 20, 20);
-    border-radius: 50%
+  padding: 5rem;
+  padding-bottom: 2rem;
+  font-size: 60px;
 }
 
 button.info {
   background-color: rgb(56, 56, 56);
-  float: right;
   border-radius: 50%;
   font-family: 'Courier New', Courier, monospace;
-  border-color: rgb(68, 68, 68);
+  border-color: rgb(43, 43, 43);
   color: white;
   padding: 12px 18px;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
   margin-right: 6rem;
-  transition-duration: 0.4s;
   cursor: pointer;
+  position: absolute;
 }
 
-button.info:hover {
-  background-color: rgb(56, 56, 56);
-  color: rgb(107, 107, 107);
+.button {
+  width: 150px;
+  height: 150px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 0.5rem 2rem;
+}
+
+.row1 {
+    display: table;
+    margin: 0 auto;
+}
+
+#ari {
+  background-image: url('/images/andybernard.jpg');
+  background-size: 150px;
+  margin-right: 2rem;
+}
+
+#tau {
+  background-image: url('/images/angelamartin.jpg');
+  background-size: 150px;
+  margin-left: 2rem;
+}
+
+.row2, .row3, .row4, .row5, .row6 {
+  display: flex;
+  justify-content: center;
+}
+
+#gem {
+  background-image: url('/images/darrylphilbin.jpg');
+  background-size: 150px;
+  margin-right: 15rem;
+}
+
+#can {
+  background-image: url('/images/dwightshrute.jpg');
+  background-size: 150px;
+  margin-left: 15rem;
+}
+
+#leo {
+  background-image: url('/images/jimhalpert.jpg');
+  background-size: 150px;
+  margin-right: 25rem;
+}
+
+#vir {
+  background-image: url('/images/kellykapoor.jpg');
+  background-size: 150px;
+  margin-left: 25rem;
+}
+
+#lib {
+  background-image: url('/images/kevinmalone.jpg');
+  background-size: 150px;
+  margin-right: 25rem;
+}
+
+#sco {
+  background-image: url('/images/michaelscott.jpg');
+  background-size: 150px;
+  margin-left: 25rem;
+}
+
+#sag {
+  background-image: url('/images/oscarnunez.jpg');
+  background-size: 150px;
+  margin-right: 15rem;
+}
+
+#cap {
+  background-image: url('/images/pambeesly.jpg');
+  background-size: 150px;
+  margin-left: 15rem;
+}
+
+#aqu {
+  background-image: url('/images/phyllisvance.jpg');
+  background-size: 150px;
+}
+
+#pis {
+  background-image: url('/images/stanleyhudson.jpg');
+  background-size: 150px;
 }
 
 .characters {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  justify-self: center;
 }
 
 input[type='image'] {
@@ -75,62 +152,9 @@ input[type='image'] {
   position:absolute;
 }
 
-#MichaelScott {
-  transform: translateX(300px);
-}
-
-#JimHalpert {
-  transform: rotate(30deg) translateX(300px);
-}
-
-#PamBeesly {
-  transform: rotate(60deg) translateX(300px);
-}
-
-#DwightShrute {
-  transform: rotate(90deg) translateX(300px);
-}
-
-#AngelaMartin {
-  transform: rotate(120deg) translateX(300px);
-}
-
-#KevinMalone {
-  transform: rotate(150deg) translateX(300px);
-}
-
-#KellyKapoor {
-  transform: rotate(180deg) translateX(300px);
-}
-
-#PhyllisVance {
-  transform: rotate(210deg) translateX(300px);
-}
-
-#StanleyHudson {
-  transform: rotate(240deg) translateX(300px);
-}
-
-#OscarNunez {
-  transform: rotate(270deg) translateX(300px);
-}
-
-#AndyBernard {
-  transform: rotate(300deg) translateX(300px);
-}
-
-#DarrylPhilbin {
-  transform: rotate(330deg) translateX(300px);
-}
-
-.birthday {
+#userinfo {
   text-align: center;
-  position: relative;
-  padding: 20rem;
-}
+  position: absolute;
+  margin: 4rem;
 
-h4.bday {
-  color: #fff;
-  font-family: 'Courier New', Courier, monospace;
-  size: 20pt;
 }

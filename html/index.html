@@ -7,41 +7,44 @@
     <link href="/css/normalize.css" rel="normalizer">
     <link href="/css/style.css" rel="stylesheet">
   </head>
-  <body>
-    <h1 class="title">The ZODIAC'S Office</h1>
-    <br>
+  <body class="wrapper">
+    <div class="intro">
+      <h1 class="title">The ZODIAC'S Office</h1>
+    </div>
     <div class="question">
       <button type="button" class="info">?</button>
     </div>
-    <div class="wheel">
-      <div class="michael">
-        <input type="image" class="character" id="MichaelScott" alt="Michael Scott" src="/images/michaelscott.jpg"></div>
-      <div class="jim">
-        <input type="image" class="character" id="JimHalpert" alt="Jim Halpert" src="/images/jimhalpert.jpg"></div>
-      <div class="pam">
-        <input type="image" class="character" id="PamBeesly" alt="Pam Beesly" src="/images/pambeesly.jpg"></div>
-      <div class="dwight">
-        <input type="image" class="character" id="DwightShrute" alt="Dwight Shrute" src="/images/dwightshrute.jpg"></div>
-      <div class="angela">
-        <input type="image" class="character" id="AngelaMartin" alt="Angela Martin" src="/images/angelamartin.jpg"></div>
-      <div class="kevin">
-        <input type="image" class="character" id="KevinMalone" alt="Kevin Malone" src="/images/kevinmalone.jpg"></div>
-      <div class="kelly">
-        <input type="image" class="character" id="KellyKapoor" alt="Kelly Kapoor" src="/images/kellykapoor.jpg"></div>
-      <div class="phyllis">
-        <input type="image" class="character" id="PhyllisVance" alt="Phyllis Vance" src="/images/phyllisvance.jpg"></div>
-      <div class="stanley">
-        <input type="image" class="character" id="StanleyHudson" alt="Stanley Hudson" src="/images/stanleyhudson.jpg"></div>
-      <div class="oscar">
-        <input type="image" class="character" id="OscarNunez" alt="Oscar Nunez" src="/images/oscarnunez.jpg"></div>
-      <div class="andy">
-        <input type="image" class="character" id="AndyBernard" alt="Andy Bernard" src="/images/andybernard.jpg"></div>
-      <div class="darryl">
-        <input type="image" class="character" id="DarrylPhilbin" alt="Darryl Philbin" src="/images/darrylphilbin.jpg"></div>
+    <div id="userinfo">
+      <p><input id="firstname" type="text" placeholder="First Name"></p>
+      <p><input id="bday" type="date" placeholder="Enter Birthday"></p>
+      <p><button id="userSubmit">Submit</button></p>
     </div>
-    <div class="birthday">
-     <h4 class="bday">Enter Your Birthday</h4>
-     <button>SUBMIT</button>
+    <div class="wheel">
+      <div class="row1">
+        <button class="button" id="ari"></button>
+        <button class="button" id="tau"></button>
+      </div>
+      <div class="row2">
+        <button class="button" id="gem"></button>
+        <button class="button" id="can"></button>
+      </div>
+      <div class="row3">
+        <button class="button" id="leo"></button>
+        <button class="button" id="vir"></button>
+      </div>
+      <div class="row4">
+        <button class="button" id="ari"></button>
+        <button class="button" id="tau"></button>
+      </div>
+      <div class="row5">
+        <button class="button" id="gem"></button>
+        <button class="button" id="can"></button>
+      </div>
+      <div class="row6">
+        <button class="button" id="leo"></button>
+        <button class="button" id="vir"></button>
+      </div>
+    </div>
     </div>
   </body>
 </html>
