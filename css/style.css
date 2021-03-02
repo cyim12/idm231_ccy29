@@ -22,15 +22,18 @@
 }
 
 body {
-  background-color: rgb(20, 20, 20);
+  background-image: url("../images/zodiacbackground.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
+  
 
 h1.title {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   padding: 5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0.5rem;
   font-size: 60px;
 }
 
@@ -50,8 +53,8 @@ button.info {
 }
 
 .button {
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   border: none;
   background-color: transparent;
   outline: none;
@@ -67,13 +70,13 @@ button.info {
 
 #ari {
   background-image: url('/images/andybernard.jpg');
-  background-size: 150px;
+  background-size: 110px;
   margin-right: 2rem;
 }
 
 #tau {
   background-image: url('/images/angelamartin.jpg');
-  background-size: 150px;
+  background-size: 110px;
   margin-left: 2rem;
 }
 
@@ -84,60 +87,60 @@ button.info {
 
 #gem {
   background-image: url('/images/darrylphilbin.jpg');
-  background-size: 150px;
-  margin-right: 15rem;
+  background-size: 110px;
+  margin-right: 11rem;
 }
 
 #can {
   background-image: url('/images/dwightshrute.jpg');
-  background-size: 150px;
-  margin-left: 15rem;
+  background-size: 110px;
+  margin-left: 11rem;
 }
 
 #leo {
   background-image: url('/images/jimhalpert.jpg');
-  background-size: 150px;
-  margin-right: 25rem;
+  background-size: 110px;
+  margin-right: 20rem;
 }
 
 #vir {
   background-image: url('/images/kellykapoor.jpg');
-  background-size: 150px;
-  margin-left: 25rem;
+  background-size: 110px;
+  margin-left: 20rem;
 }
 
 #lib {
   background-image: url('/images/kevinmalone.jpg');
-  background-size: 150px;
-  margin-right: 25rem;
+  background-size: 110px;
+  margin-right: 20rem;
 }
 
 #sco {
   background-image: url('/images/michaelscott.jpg');
-  background-size: 150px;
-  margin-left: 25rem;
+  background-size: 110px;
+  margin-left: 20rem;
 }
 
 #sag {
   background-image: url('/images/oscarnunez.jpg');
-  background-size: 150px;
+  background-size: 110px;
   margin-right: 15rem;
 }
 
 #cap {
   background-image: url('/images/pambeesly.jpg');
-  background-size: 150px;
+  background-size: 110px;
   margin-left: 15rem;
 }
 
 #aqu {
   background-image: url('/images/phyllisvance.jpg');
-  background-size: 150px;
+  background-size: 110px;
 }
 
 #pis {
   background-image: url('/images/stanleyhudson.jpg');
-  background-size: 150px;
+  background-size: 110px;
 }
 
 .characters {
