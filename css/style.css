@@ -28,13 +28,15 @@ body {
   background-color: #2b2b2b;
   background-repeat: no-repeat;
   background-size: cover contain;
+  margin: 1rem;
+  max-height:min-content;
 }
 
 h1.title {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  padding: 5rem;
+  padding: 2rem;
   padding-bottom: 0.5rem;
   font-size: 60px;
 }
@@ -63,6 +65,154 @@ button.info {
   border-radius: 40px;
   cursor: pointer;
   margin: 0.5rem 2rem;
+}
+
+.row1 {
+  display: table;
+  margin: 0 auto;
+}
+
+#ari {
+  background-image: url('/images/darrylphilbin.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 2rem;
+}
+
+#ari:hover {
+  background-image: url('/images/darryl_name.svg');
+}
+
+#tau {
+  background-image: url('/images/angelamartin.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 2rem;
+}
+
+#tau:hover {
+  background-image: url('/images/angela_name.svg');
+}
+
+.row4{
+  display: table;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.row2, .row3, .row5, .row6 {
+  display: table;
+  margin: 0 auto;
+}
+
+#gem {
+  background-image: url('/images/andybernard.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 12rem;
+}
+
+#gem:hover {
+  background-image: url('/images/andy_name.svg');
+}
+
+#can {
+  background-image: url('/images/kevinmalone.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 12rem;
+}
+
+#can:hover {
+  background-image: url('/images/kevin_name.svg');
+}
+
+#leo {
+  background-image: url('/images/dwightshrute.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 19rem;
+}
+
+#leo:hover {
+  background-image: url('/images/dwight_name.svg');
+}
+
+#vir {
+  background-image: url('/images/jimhalpert.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 19rem;
+}
+
+#vir:hover {
+  background-image: url('/images/jim_name.svg');
+}
+
+#lib {
+  background-image: url('/images/kellykapoor.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 19rem;
+}
+
+#lib:hover {
+  background-image: url('/images/kelly_name.svg');
+}
+
+#sco {
+  background-image: url('/images/michaelscott.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 19rem;
+}
+
+#sco:hover {
+  background-image: url('/images/michael_name.svg');
+}
+
+#sag {
+  background-image: url('/images/oscarnunez.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 12rem;
+}
+
+#sag:hover {
+  background-image: url('/images/oscar_name.svg');
+}
+
+#cap {
+  background-image: url('/images/pambeesly.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 12rem;
+}
+
+#cap:hover {
+  background-image: url('/images/pam_name.svg');
+}
+
+#aqu {
+  background-image: url('/images/phyllissmith.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 2rem;
+}
+
+#aqu:hover {
+  background-image: url('/images/phyllis_name.svg');
+}
+
+#pis {
+  background-image: url('/images/stanleyhudson.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 2rem;
+}
+
+#pis:hover {
+  background-image: url('/images/stanley_name.svg');
 }
 
 .userinfo {
