@@ -64,7 +64,8 @@ button.info {
   outline: none;
   border-radius: 40px;
   cursor: pointer;
-  margin: 0.5rem 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .row1 {
@@ -131,7 +132,8 @@ button.info {
   background-image: url('/images/dwightshrute.png');
   background-position: center;
   background-repeat: no-repeat;
-  margin-right: 19rem;
+  margin-right: 18rem;
+  margin-top: 2rem;
 }
 
 #leo:hover {
@@ -142,7 +144,8 @@ button.info {
   background-image: url('/images/jimhalpert.png');
   background-position: center;
   background-repeat: no-repeat;
-  margin-left: 19rem;
+  margin-left: 18rem;
+  margin-top: 2rem;
 }
 
 #vir:hover {
@@ -153,7 +156,9 @@ button.info {
   background-image: url('/images/kellykapoor.png');
   background-position: center;
   background-repeat: no-repeat;
-  margin-right: 19rem;
+  margin-right: 18rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #lib:hover {
@@ -164,7 +169,9 @@ button.info {
   background-image: url('/images/michaelscott.png');
   background-position: center;
   background-repeat: no-repeat;
-  margin-left: 19rem;
+  margin-left: 18rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #sco:hover {
