@@ -73,25 +73,25 @@ button.info {
   margin: 0 auto;
 }
 
-#ari {
+#darryl {
   background-image: url('/images/darrylphilbin.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 2rem;
 }
 
-#ari:hover {
+#darryl:hover {
   background-image: url('/images/darryl_name.svg');
 }
 
-#tau {
+#angela {
   background-image: url('/images/angelamartin.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 2rem;
 }
 
-#tau:hover {
+#angela:hover {
   background-image: url('/images/angela_name.svg');
 }
 
@@ -106,29 +106,29 @@ button.info {
   margin: 0 auto;
 }
 
-#gem {
+#andy {
   background-image: url('/images/andybernard.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 12rem;
 }
 
-#gem:hover {
+#andy:hover {
   background-image: url('/images/andy_name.svg');
 }
 
-#can {
+#kevin {
   background-image: url('/images/kevinmalone.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 12rem;
 }
 
-#can:hover {
+#kevin:hover {
   background-image: url('/images/kevin_name.svg');
 }
 
-#leo {
+#dwight {
   background-image: url('/images/dwightshrute.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -136,11 +136,11 @@ button.info {
   margin-top: 2rem;
 }
 
-#leo:hover {
+#dwight:hover {
   background-image: url('/images/dwight_name.svg');
 }
 
-#vir {
+#jim {
   background-image: url('/images/jimhalpert.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -148,11 +148,11 @@ button.info {
   margin-top: 2rem;
 }
 
-#vir:hover {
+#jim:hover {
   background-image: url('/images/jim_name.svg');
 }
 
-#lib {
+#kelly {
   background-image: url('/images/kellykapoor.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -161,11 +161,11 @@ button.info {
   margin-bottom: 2rem;
 }
 
-#lib:hover {
+#kelly:hover {
   background-image: url('/images/kelly_name.svg');
 }
 
-#sco {
+#michael {
   background-image: url('/images/michaelscott.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -174,51 +174,51 @@ button.info {
   margin-bottom: 2rem;
 }
 
-#sco:hover {
+#michael:hover {
   background-image: url('/images/michael_name.svg');
 }
 
-#sag {
+#oscar {
   background-image: url('/images/oscarnunez.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 12rem;
 }
 
-#sag:hover {
+#oscar:hover {
   background-image: url('/images/oscar_name.svg');
 }
 
-#cap {
+#pam {
   background-image: url('/images/pambeesly.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 12rem;
 }
 
-#cap:hover {
+#pam:hover {
   background-image: url('/images/pam_name.svg');
 }
 
-#aqu {
+#phyllis {
   background-image: url('/images/phyllissmith.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 2rem;
 }
 
-#aqu:hover {
+#phyllis:hover {
   background-image: url('/images/phyllis_name.svg');
 }
 
-#pis {
+#stanley {
   background-image: url('/images/stanleyhudson.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 2rem;
 }
 
-#pis:hover {
+#stanley:hover {
   background-image: url('/images/stanley_name.svg');
 }
 
@@ -229,4 +229,57 @@ button.info {
   margin-left: -50px;
   top: 40%;
   margin-top: 50px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/* Modal */
+.modal {
+  height: 100vh;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.modal .blanket {
+    background-color: rgba(0, 0, 0, .8);
+ 
+    height: 100vh;
+    width: 100vw;
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+ 
+.modal-body {
+    background-color: #fff;
+    border: 1rem solid skyblue;
+ 
+    height: 50vh;
+    max-width: 50vw;
+ 
+    position: relative;
+    z-index: 101;
+ 
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
 }
