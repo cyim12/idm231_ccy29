@@ -131,11 +131,11 @@ userSubmitObj.addEventListener('click', function(){
       userPicked(AstroSign);
 });
 
-
 //MODALS//
 function userPicked(whichOne) {
   console.log('userPicked called: ' + whichOne);
   switch (whichOne) {
+
     case 'darryl':
       zDisplayObj.src = '/images/darrylphilbin.png';
       zTitleObj.innerHTML = 'Darryl Philbin';
@@ -143,6 +143,7 @@ function userPicked(whichOne) {
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
+
     case 'angela':
       zDisplayObj.src = '/images/angelamartin.png';
       zTitleObj.innerHTML = 'Angela Martin';
@@ -150,6 +151,7 @@ function userPicked(whichOne) {
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
+
     case 'andy':
       zDisplayObj.src = '/images/andybernard.png';
       zTitleObj.innerHTML = 'Andy Bernard';
@@ -157,6 +159,7 @@ function userPicked(whichOne) {
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
+
     case 'kevin':
       zDisplayObj.src = '/images/kevinmalone.png';
       zTitleObj.innerHTML = 'Kevin Malone';
@@ -164,6 +167,7 @@ function userPicked(whichOne) {
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
+
     case 'dwight':
       zDisplayObj.src = '/images/dwightshrute.png';
       zTitleObj.innerHTML = 'Dwight Shrute';
@@ -171,6 +175,7 @@ function userPicked(whichOne) {
       zMoreInfo.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
         break;
+
       case 'jim':
         zDisplayObj.src = '/images/jimhalpert.png';
         zTitleObj.innerHTML = 'Jim Halpert';
@@ -178,6 +183,7 @@ function userPicked(whichOne) {
         zMoreInfo.innerHTML = '<p>pls put filler here</p>';
         modal.hidden = !modal.hidden;
         break;
+
       case 'kelly':
         zDisplayObj.src = '/images/kellykapoor.png';
         zTitleObj.innerHTML = 'Kelly Kapoor';
@@ -185,6 +191,7 @@ function userPicked(whichOne) {
         zMoreInfo.innerHTML = '<p>pls put filler here</p>';
         modal.hidden = !modal.hidden;
         break;
+
       case 'michael':
         zDisplayObj.src = '/images/michaelscott.png';
         zTitleObj.innerHTML = 'Michael Scott';
@@ -192,6 +199,7 @@ function userPicked(whichOne) {
         zMoreInfo.innerHTML = '<p>pls put filler here</p>';
         modal.hidden = !modal.hidden;
         break;
+
       case 'oscar':
         zDisplayObj.src = '/images/oscarnunez.png';
         zTitleObj.innerHTML = 'Oscar Nunez';
@@ -199,6 +207,7 @@ function userPicked(whichOne) {
         zMoreInfo.innerHTML = '<p>pls put filler here</p>';
         modal.hidden = !modal.hidden;
         break;
+
       case 'pam':
         zDisplayObj.src = '/images/pambeesly.png';
         zTitleObj.innerHTML = 'Pam Beesly';
@@ -206,6 +215,7 @@ function userPicked(whichOne) {
         zMoreInfo.innerHTML = '<p>pls put filler here</p>';
         modal.hidden = !modal.hidden;
         break;
+
       case 'phyllis':
         zDisplayObj.src = '/images/phyllissmith.png';
         zTitleObj.innerHTML = 'Phyllis Smith';
@@ -213,6 +223,7 @@ function userPicked(whichOne) {
         zMoreInfo.innerHTML = '<p>pls put filler here</p>';
         modal.hidden = !modal.hidden;
         break;
+         
       case 'stanley':
         zDisplayObj.src = '/images/stanleyhudson.png';
         zTitleObj.innerHTML = 'Stanley Hudson';
