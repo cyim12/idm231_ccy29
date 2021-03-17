@@ -38,11 +38,14 @@
         <button class="button" id="kevin"></button>
       </div>
       <div class="userinfo">
-        <button type="button" class="info">?</button>
-        <br>
+        <div class="help">
+        <button class="help" id="btn-modal-open"><div>?</div></button>
+        </div>
         <img src="/images/enterbday.png" alt="Enter Your Birthday" id="bdaylabel">
-        <p><input id="bday" type="date" placeholder="mm/dd/yyyy"></p>
-        <p><button id="userSubmit">Submit</button></p>
+        <input type="date" name="birthday" id="bday" placeholder="mm/dd/yyyy"/>
+        <div id="userSubmit">
+          <input type="submit" value="SUBMIT"/> 
+      </div>
       </div>
     </div>
     </div>
@@ -52,9 +55,14 @@
   <div class="modal-body">
     <div class="modal-content">
       <div>
-        <img id="zDisplayImg" src="/gif/angela.gif" alt="Angela Martin">
+        <img id="zDisplayImg">
       </div>
-      <p><span id="zTitle">Title</span> <br> <span id="zDateRange">Date Range</span></p>
+      <audio>
+          <source src="/audio/angelamartin_audio.mp3" type="audio" class="audio">
+          Your browser does not support the audio element.
+        </audio>
+      </audio>
+      <span id="zTitle">Title</span> <br> <span id="zDateRange">Date Range</span></p>
       <div id="zMoreInfo">
         <p>Object description goes here</p>
       </div>

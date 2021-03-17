@@ -193,7 +193,7 @@ h1.title {
 
 .userinfo {
   text-align: center;
-  top: 42%;
+  top: 40%;
   position: absolute;
   left: 0;
   right: 0;
@@ -202,33 +202,61 @@ h1.title {
   width: 300px;
 }
 
-button.info {
-  background-color: rgb(56, 56, 56);
-  border-radius: 50%;
-  font-family: Helvetica, sans-serif;
-  border-color: rgb(43, 43, 43);
-  color: white;
-  padding: 10px 13px;
+.help {
+  padding: 1rem;
+}
+
+#btn-modal-open {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid white;
+  border-radius: 50px;
+
+  padding: 8px 14px;
+  margin: 2em 50vw 0;
   text-align: center;
-  font-size: 12px;
-  cursor: pointer;
-  display: block;
   margin: auto;
   float: center;
-}
+  
 
-#infotxt {
-  font-family: "itc-american-typewriter", serif;
-  font-weight: 500;
-  font-style: normal;
-  color: #fff;
-  font-size: 120%;
-}
-
-#userSubmit {
-  background:rgb(194, 194, 194);
-  border-radius: 15%;
+  color: white;
+  box-shadow: 0px 0px 20px rgb(117, 117, 117);
+  background: none;
+  
   cursor: pointer;
+}
+#btn-modal-open:hover {
+      background-color: #5a5a5a;
+      cursor: pointer;
+      transition: 0.35s ease-in-out ;
+}
+
+#bday {
+  background: #5a5a5a;
+  color: white;
+  font-size: 90%;
+  border: none;
+  border-radius: 70px;
+  width: 100px;
+  padding: 0.5rem;
+  margin: 1.5rem 0;
+  box-shadow: 0px 0px 10px rgb(141, 141, 141);
+}
+
+#userSubmit input{
+  background-color:rgba(255, 255, 255, 0.0);
+  border: 2px solid white;
+  border-radius: 60px;
+  padding: 10px;
+  color: white;
+  font-size: 80%;
+  letter-spacing: 2px;
+  box-shadow: 0px 0px 20px rgb(117, 117, 117);
+  cursor: pointer;
+}
+
+#userSubmit input:hover {
+  background-color: #5a5a5a;
+  transition: 0.35s ease-in-out ;
 }
 
 [hidden] {
