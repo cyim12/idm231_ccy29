@@ -1,59 +1,23 @@
-/* FONTS */
-
-@font-face {
-  font-family: 'Josefin_Sans';
-  src: url('../fonts/JosefinSans/josefinsans-regular-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Josefin_Sans';
-  src: url('../fonts/JosefinSans/josefinsans-bold-webfont.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Josefin_Sans';
-  src: url('../fonts/JosefinSans/josefinsans-light-webfont.woff2') format('woff2');
-  font-weight: lighter;
-  font-style: normal;
-}
-
+/* GENERAL */
 body {
   background-image: url("../images/zodiacbackground.svg");
   background-position: center;
   position: relative;
-  background-color: #2b2b2b;
+  background-color: #212121;
   background-repeat: no-repeat;
   background-size: cover contain;
-  margin: 1rem;
+  margin: 0.8rem;
   max-height:min-content;
 }
 
 h1.title {
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "itc-american-typewriter", serif;
+  font-weight: 500;
+  font-style: normal;
   text-align: center;
-  padding: 2rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.3rem;
   font-size: 50px;
-}
-
-button.info {
-  background-color: rgb(56, 56, 56);
-  border-radius: 50%;
-  font-family: 'Courier New', Courier, monospace;
-  border-color: rgb(43, 43, 43);
-  color: white;
-  padding: 12px 18px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  margin-right: 6rem;
-  cursor: pointer;
-  position: absolute;
 }
 
 .button {
@@ -73,26 +37,26 @@ button.info {
   margin: 0 auto;
 }
 
-#darryl {
-  background-image: url('/images/darrylphilbin.png');
+#angela {
+  background-image: url('/images/angelamartin.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 2rem;
 }
 
-#darryl:hover {
-  background-image: url('/images/darryl_name.svg');
+#angela:hover {
+  background-image: url('/images/angela_name.svg');
 }
 
-#angela {
-  background-image: url('/images/angelamartin.png');
+#stanley {
+  background-image: url('/images/stanleyhudson.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 2rem;
 }
 
-#angela:hover {
-  background-image: url('/images/angela_name.svg');
+#stanley:hover {
+  background-image: url('/images/stanley_name.svg');
 }
 
 .row4{
@@ -104,78 +68,6 @@ button.info {
 .row2, .row3, .row5, .row6 {
   display: table;
   margin: 0 auto;
-}
-
-#andy {
-  background-image: url('/images/andybernard.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-right: 12rem;
-}
-
-#andy:hover {
-  background-image: url('/images/andy_name.svg');
-}
-
-#kevin {
-  background-image: url('/images/kevinmalone.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-left: 12rem;
-}
-
-#kevin:hover {
-  background-image: url('/images/kevin_name.svg');
-}
-
-#dwight {
-  background-image: url('/images/dwightshrute.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-right: 18rem;
-  margin-top: 2rem;
-}
-
-#dwight:hover {
-  background-image: url('/images/dwight_name.svg');
-}
-
-#jim {
-  background-image: url('/images/jimhalpert.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-left: 18rem;
-  margin-top: 2rem;
-}
-
-#jim:hover {
-  background-image: url('/images/jim_name.svg');
-}
-
-#kelly {
-  background-image: url('/images/kellykapoor.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-right: 18rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-#kelly:hover {
-  background-image: url('/images/kelly_name.svg');
-}
-
-#michael {
-  background-image: url('/images/michaelscott.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-left: 18rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-#michael:hover {
-  background-image: url('/images/michael_name.svg');
 }
 
 #oscar {
@@ -200,35 +92,143 @@ button.info {
   background-image: url('/images/pam_name.svg');
 }
 
+#andy {
+  background-image: url('/images/andybernard.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 18rem;
+  margin-top: 2rem;
+}
+
+#andy:hover {
+  background-image: url('/images/andy_name.svg');
+}
+
+#jim {
+  background-image: url('/images/jimhalpert.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 18rem;
+  margin-top: 2rem;
+}
+
+#jim:hover {
+  background-image: url('/images/jim_name.svg');
+}
+
 #phyllis {
   background-image: url('/images/phyllissmith.png');
   background-position: center;
   background-repeat: no-repeat;
-  margin-right: 2rem;
+  margin-right: 18rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #phyllis:hover {
   background-image: url('/images/phyllis_name.svg');
 }
 
-#stanley {
-  background-image: url('/images/stanleyhudson.png');
+#dwight {
+  background-image: url('/images/dwightshrute.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 18rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#dwight:hover {
+  background-image: url('/images/dwight_name.svg');
+}
+
+#kelly {
+  background-image: url('/images/kellykapoor.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 12rem;
+}
+
+#kelly:hover {
+  background-image: url('/images/kelly_name.svg');
+}
+
+#darryl {
+  background-image: url('/images/darrylphilbin.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 12rem;
+}
+
+#darryl:hover {
+  background-image: url('/images/darryl_name.svg');
+}
+
+#michael {
+  background-image: url('/images/michaelscott.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 2rem;
+}
+
+#michael:hover {
+  background-image: url('/images/michael_name.svg');
+}
+
+#kevin {
+  background-image: url('/images/kevinmalone.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 2rem;
 }
 
-#stanley:hover {
-  background-image: url('/images/stanley_name.svg');
+#kevin:hover {
+  background-image: url('/images/kevin_name.svg');
+}
+
+#bdaylabel {
+  width: 280px;
+  height: 100px;
 }
 
 .userinfo {
   text-align: center;
+  top: 42%;
   position: absolute;
-  left: 50%;
-  margin-left: -50px;
-  top: 40%;
-  margin-top: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  float: center;
+  width: 300px;
+}
+
+button.info {
+  background-color: rgb(56, 56, 56);
+  border-radius: 50%;
+  font-family: Helvetica, sans-serif;
+  border-color: rgb(43, 43, 43);
+  color: white;
+  padding: 10px 13px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  float: center;
+}
+
+#infotxt {
+  font-family: "itc-american-typewriter", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+  font-size: 120%;
+}
+
+#userSubmit {
+  background:rgb(194, 194, 194);
+  border-radius: 15%;
+  cursor: pointer;
 }
 
 [hidden] {
@@ -265,7 +265,8 @@ button.info {
  
 .modal-body {
     background-color: #fff;
-    border: 1rem solid skyblue;
+    border: 1rem solid rgb(77, 77, 77);
+    border-radius: 50%;
  
     height: 50vh;
     max-width: 50vw;
@@ -282,4 +283,29 @@ button.info {
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
+}
+
+#zDisplayImg {
+  width: 200px;
+  height: 110px;
+  border-radius: 3%;
+}
+
+#zTitle {
+  font-family: "itc-american-typewriter", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#zDateRange {
+  font-family: "itc-american-typewriter", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40%;
+}
+
+#zMoreInfo {
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
