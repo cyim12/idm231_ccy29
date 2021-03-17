@@ -97,7 +97,7 @@ userSubmitObj.addEventListener('click', function(){
     console.log('whichMonth is: ' + whichMonth);
  
     const whichDayOfMonth = userBday.getUTCDate();
-    console.log('whichDayOfMonth is: ' + whichDayOfMonth)
+    console.log('whichDayOfMonth is: ' + whichDayOfMonth);
  
     let AstroSign = "";
     
@@ -140,7 +140,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/angela.gif';
       zTitleObj.innerHTML = 'Angela Martin';
       zDateRangeObj.innerHTML = 'Mar. 21 ~ Apr. 19';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>Angela brings down harsh judgments on anyone who doesn’t live up to her standards of piousness – standards not even she lives up to. She dislikes excitement to the point of phobia and relishes in her dislike of her co-workers. Then again, if you happen to be a cat, Angela is a dream come true.</p>';
       modal.hidden = !modal.hidden;
       break;
 
@@ -148,15 +148,15 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/stanley.gif';
       zTitleObj.innerHTML = 'Stanley Hudson';
       zDateRangeObj.innerHTML = 'Apr. 20 ~ May. 20';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p> Stanley is generally quiet and polite, but don’t cross him. When Michael gets too loose-jawed, Stanley can put him in his place with a single intimidating glance. But overall, Stanley mostly wants to be left alone to enjoy his simple pleasures of puzzles and pretzels.</p>';
       modal.hidden = !modal.hidden;
       break;
 
     case 'oscar':
       zDisplayObj.src = '/gif/oscar.gif';
-      zTitleObj.innerHTML = 'Oscar Nunez';
+      zTitleObj.innerHTML = 'Oscar Martinez';
       zDateRangeObj.innerHTML = 'May. 21 ~ Jun. 21';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;  
 
@@ -164,7 +164,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/pam.gif';
       zTitleObj.innerHTML = 'Pam Beesly';
       zDateRangeObj.innerHTML = 'Jun. 22 ~ Jul. 22';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
 
@@ -172,7 +172,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/andy.gif';
       zTitleObj.innerHTML = 'Andy Bernard';
       zDateRangeObj.innerHTML = 'Jul. 23 ~ Aug. 22';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
 
@@ -180,7 +180,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/jim.gif';
       zTitleObj.innerHTML = 'Jim Halpert';
       zDateRangeObj.innerHTML = 'Aug. 23 ~ Sept. 22';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
     
@@ -188,7 +188,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/phyllis.gif';
       zTitleObj.innerHTML = 'Phyllis Smith';
       zDateRangeObj.innerHTML = 'Sept. 23 ~ Oct. 23';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
 
@@ -196,7 +196,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/dwight.gif';
       zTitleObj.innerHTML = 'Dwight Shrute';
       zDateRangeObj.innerHTML = 'Oct. 24 ~ Nov. 21';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
 
@@ -204,7 +204,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/kelly.gif';
       zTitleObj.innerHTML = 'Kelly Kapoor';
       zDateRangeObj.innerHTML = 'Nov. 22 ~ Dec. 21';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
 
@@ -212,7 +212,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/darryl.gif';
       zTitleObj.innerHTML = 'Darryl Philbin';
       zDateRangeObj.innerHTML = 'Dec. 22 ~ Jan. 19';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
 
@@ -220,7 +220,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/michael.gif';
       zTitleObj.innerHTML = 'Michael Scott';
       zDateRangeObj.innerHTML = 'Jan. 20 ~ Feb. 18';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
 
@@ -228,7 +228,7 @@ function userPicked(whichOne) {
       zDisplayObj.src = '/gif/kevin.gif';
       zTitleObj.innerHTML = 'Kevin Malone';
       zDateRangeObj.innerHTML = 'Feb. 19 ~ Mar. 20';
-      zMoreInfo.innerHTML = '<p>pls put filler here</p>';
+      zMoreInfoObj.innerHTML = '<p>pls put filler here</p>';
       modal.hidden = !modal.hidden;
       break;
     default: 
@@ -246,4 +246,13 @@ closeModalObj.addEventListener('click', function(){
 const zDisplayObj = document.getElementById('zDisplayImg');
 const zTitleObj = document.getElementById('zTitle');
 const zDateRangeObj = document.getElementById('zDateRange');
-const zMoreINfoObj = document.getElementById('zMoreInfo');
+const zMoreInfoObj = document.getElementById('zMoreInfo');
+
+//HELP MODAL//
+const help = document.getElementById('help');
+
+const helpModal = document.getElementById('helpModal');
+help.addEventListener('click', function(){
+  helpModal.hidden = !helpModal.hidden;
+});
+
