@@ -237,7 +237,6 @@ function userPicked(whichOne) {
 
 //MODALS//
 const modal = document.getElementById('modal');
-const help = document.getElementById('help');
  
 const closeModalObj = document.getElementById('btn-modal-close');
 closeModalObj.addEventListener('click', function(){
