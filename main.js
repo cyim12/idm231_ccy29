@@ -93,11 +93,16 @@ userSubmitObj.addEventListener('click', function(){
     console.log('User submit button clicked');
  
     const userBday = new Date(document.getElementById('bday').value);
-    console.log('userBday is' + userBday);
+    console.log('userBday is ' + userBday);
  
     let whichMonth = userBday.getUTCMonth();
     whichMonth++;
     console.log('whichMonth is: ' + whichMonth);
+
+    if (isNaN(whichMonth)) {
+      console.log('badMonth');
+      return
+    }
  
     const whichDayOfMonth = userBday.getUTCDate();
     console.log('whichDayOfMonth is: ' + whichDayOfMonth);
