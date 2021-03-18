@@ -249,9 +249,9 @@ const zDateRangeObj = document.getElementById('zDateRange');
 const zMoreInfoObj = document.getElementById('zMoreInfo');
 
 //HELP MODAL//
-const help = document.getElementById('help');
-
-const helpModal = document.getElementById('helpModal');
+const help = document.getElementsByClassName('help').item(0);
+console.log(help)
+const helpModal = document.getElementsByClassName('helpModal').item(0);
 help.addEventListener('click', function(){
   helpModal.hidden = !helpModal.hidden;
 });
