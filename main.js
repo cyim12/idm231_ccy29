@@ -138,7 +138,6 @@ userSubmitObj.addEventListener('click', function(){
 function userPicked(whichOne) {
   console.log('userPicked called: ' + whichOne);
   switch (whichOne) {
-    // audio.play()
     case 'angela':
       zDisplayObj.src = './gif/angela.gif';
       audio.src = './audio/angelamartin_audio.mp3';
@@ -212,7 +211,7 @@ function userPicked(whichOne) {
       break;
 
     case 'kelly':
-      zDisplayObj.src = '/gif/kelly.gif';
+      zDisplayObj.src = './gif/kelly.gif';
       audio.src = './audio/kellykapoor_audio.mp3';
       zTitleObj.innerHTML = 'Kelly Kapoor';
       zDateRangeObj.innerHTML = 'Nov. 22 ~ Dec. 21';
@@ -248,6 +247,7 @@ function userPicked(whichOne) {
       break;
     default: 
     }
+    audio.play()
   }
 
 //MODALS//
@@ -256,14 +256,14 @@ const modal = document.getElementById('modal');
 const closeModalObj = document.getElementById('btn-modal-close');
 closeModalObj.addEventListener('click', function(){
   modal.hidden = !modal.hidden;
-  // audio.pause()
+  audio.pause()
 });
  
 const zDisplayObj = document.getElementById('zDisplayImg');
 const zTitleObj = document.getElementById('zTitle');
 const zDateRangeObj = document.getElementById('zDateRange');
 const zMoreInfoObj = document.getElementById('zMoreInfo');
-const audio = document.getElementById('audio');
+var audio = document.getElementById('audio');
 
 //HELP MODAL//
 const help = document.getElementsByClassName('helpButtonClass').item(0);
