@@ -201,33 +201,46 @@ h1.title {
   float: center;
   width: 300px;
 }
-
-.helpModal {
-  padding: 1rem;
-}
-
 #btn-modal-open {
   background-color: rgba(255, 255, 255, 0.4);
   border: 2px solid white;
   border-radius: 50px;
 
   padding: 8px 14px;
-  margin: 2em 50vw 0;
+  margin: 2em;
   text-align: center;
   margin: auto;
   float: center;
   
-
   color: white;
   box-shadow: 0px 0px 20px rgb(117, 117, 117);
   background: none;
   
   cursor: pointer;
 }
+
 #btn-modal-open:hover {
       background-color: #5a5a5a;
       cursor: pointer;
       transition: 0.35s ease-in-out ;
+}
+
+#close-help-modal, #btn-modal-close {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid white;
+  border-radius: 50px;
+
+  padding: 8px 14px;
+  margin: 2em;
+  text-align: center;
+  margin: auto;
+  float: center;
+  
+  color: 212121;
+  box-shadow: 0px 0px 20px rgb(117, 117, 117);
+  background: none;
+  
+  cursor: pointer;
 }
 
 #bday {
@@ -236,7 +249,7 @@ h1.title {
   font-size: 90%;
   border: none;
   border-radius: 70px;
-  width: 100px;
+  width: 150px;
   padding: 0.5rem;
   margin: 1.5rem 0;
   box-shadow: 0px 0px 10px rgb(141, 141, 141);
@@ -290,6 +303,31 @@ h1.title {
     left: 0;
     z-index: 100;
 }
+
+.modal-bod {
+  background-color: #fff;
+  border: 0.5rem solid rgb(77, 77, 77);
+  border-radius: 50%;
+ 
+  height: 500px;
+  width: 500px;
+  max-width: 50vw;
+ 
+  position: relative;
+  z-index: 101;
+ 
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  top: 20%;
+}
  
 .modal-body {
     background-color: #fff;
@@ -311,6 +349,7 @@ h1.title {
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
+    top: 5%;
 }
 
 #zDisplayImg {
@@ -319,7 +358,7 @@ h1.title {
   border-radius: 3%;
 }
 
-#zTitle {
+#zTitle, #title {
   font-family: "itc-american-typewriter", serif;
   font-weight: 500;
   font-style: normal;
@@ -333,7 +372,7 @@ h1.title {
   font-size: 40%;
 }
 
-#zMoreInfo {
+#zMoreInfo, #helptxt {
   font-family: "itc-american-typewriter", serif;
   font-weight: 300;
   font-style: normal;
