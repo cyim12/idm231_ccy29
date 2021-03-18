@@ -15,73 +15,73 @@ console.log("===================")
 console.log(document.URL)
 console.log("===================")
 angelaObj.addEventListener('click', function(evt) {
-    console.log('angela button clicked' + evt.target.id);
+    console.log('angela button clicked ' + evt.target.id);
     const idName = evt.target.id;
     userPicked(idName);
 });
 
 stanleyObj.addEventListener('click', function(evt) {
-  console.log('stanley button clicked' + evt.target.id);
+  console.log('stanley button clicked ' + evt.target.id);
   const idName = evt.target.id;
   userPicked(idName);
 });
  
 oscarObj.addEventListener('click', function(evt) {
-  console.log('oscar button clicked' + evt.target.id);
+  console.log('oscar button clicked ' + evt.target.id);
   const idName = evt.target.id;
   userPicked(idName);
 });
 
 pamObj.addEventListener('click', function(evt) {
-  console.log('pam button clicked' + evt.target.id);
+  console.log('pam button clicked ' + evt.target.id);
   const idName = evt.target.id;
   userPicked(idName);
 });
 
 andyObj.addEventListener('click', function(evt) {
-    console.log('andy button clicked' + evt.target.id);
+    console.log('andy button clicked ' + evt.target.id);
     const idName = evt.target.id;
     userPicked(idName);
 });
 
 jimObj.addEventListener('click', function(evt) {
-  console.log('jim button clicked' + evt.target.id);
+  console.log('jim button clicked ' + evt.target.id);
   const idName = evt.target.id;
   userPicked(idName);
 });
 
 phyllisObj.addEventListener('click', function(evt) {
-  console.log('phyllis button clicked' + evt.target.id);
+  console.log('phyllis button clicked ' + evt.target.id);
   const idName = evt.target.id;
   userPicked(idName);
 });
  
 dwightObj.addEventListener('click', function(evt) {
-  console.log('dwight button clicked' + evt.target.id);
+  console.log('dwight button clicked ' + evt.target.id);
   const idName = evt.target.id;
   userPicked(idName);
 });
 
 kellyObj.addEventListener('click', function(evt) {
-  console.log('kelly button clicked' + evt.target.id);
+  console.log('kelly button clicked ' + evt.target.id);
   const idName = evt.target.id;
   userPicked(idName);
 });
 
 darrylObj.addEventListener('click', function(evt) {
-  console.log('darryl button clicked' + evt.target.id);
+  console.log('darryl button clicked ' + evt.target.id);
   const idName = evt.target.id;
   userPicked(idName);
 });
 
 michaelObj.addEventListener('click', function(evt) {
-  console.log('michael button clicked' + evt.target.id);
+  console.log('michael button clicked ' + evt.target.id);
   const idName = evt.target.id;
   userPicked(idName);
 });
 
 kevinObj.addEventListener('click', function(evt) {
-  console.log('kevin button clicked' + evt.target.id);
+  console.log('kevin button clicked ' + evt.target.id);
   const idName = evt.target.id;
   userPicked(idName);
 });
