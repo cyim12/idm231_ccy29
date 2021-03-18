@@ -1,6 +1,6 @@
 /* GENERAL */
 body {
-  background-image: url("/images/zodiacbackground.svg");
+  background-image: url("../images/zodiacbackground.svg");
   background-position: center;
   position: relative;
   background-color: #212121;
@@ -38,25 +38,25 @@ h1.title {
 }
 
 #angela {
-  background-image: url('/images/angelamartin.png');
+  background-image: url('../images/angelamartin.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 2rem;
 }
 
 #angela:hover {
-  background-image: url('/images/angela_name.svg');
+  background-image: url('../images/angela_name.svg');
 }
 
 #stanley {
-  background-image: url('/images/stanleyhudson.png');
+  background-image: url('../images/stanleyhudson.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 2rem;
 }
 
 #stanley:hover {
-  background-image: url('/images/stanley_name.svg');
+  background-image: url('../images/stanley_name.svg');
 }
 
 .row4{
@@ -71,29 +71,29 @@ h1.title {
 }
 
 #oscar {
-  background-image: url('/images/oscarmartinez.png');
+  background-image: url('../images/oscarmartinez.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 12rem;
 }
 
 #oscar:hover {
-  background-image: url('/images/oscar_name.svg');
+  background-image: url('../images/oscar_name.svg');
 }
 
 #pam {
-  background-image: url('/images/pambeesly.png');
+  background-image: url('../images/pambeesly.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 12rem;
 }
 
 #pam:hover {
-  background-image: url('/images/pam_name.svg');
+  background-image: url('../images/pam_name.svg');
 }
 
 #andy {
-  background-image: url('/images/andybernard.png');
+  background-image: url('../images/andybernard.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 18rem;
@@ -101,11 +101,11 @@ h1.title {
 }
 
 #andy:hover {
-  background-image: url('/images/andy_name.svg');
+  background-image: url('../images/andy_name.svg');
 }
 
 #jim {
-  background-image: url('/images/jimhalpert.png');
+  background-image: url('../images/jimhalpert.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 18rem;
@@ -113,11 +113,11 @@ h1.title {
 }
 
 #jim:hover {
-  background-image: url('/images/jim_name.svg');
+  background-image: url('../images/jim_name.svg');
 }
 
 #phyllis {
-  background-image: url('/images/phyllissmith.png');
+  background-image: url('../images/phyllissmith.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 18rem;
@@ -126,11 +126,11 @@ h1.title {
 }
 
 #phyllis:hover {
-  background-image: url('/images/phyllis_name.svg');
+  background-image: url('../images/phyllis_name.svg');
 }
 
 #dwight {
-  background-image: url('/images/dwightshrute.png');
+  background-image: url('../images/dwightshrute.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 18rem;
@@ -139,51 +139,51 @@ h1.title {
 }
 
 #dwight:hover {
-  background-image: url('/images/dwight_name.svg');
+  background-image: url('../images/dwight_name.svg');
 }
 
 #kelly {
-  background-image: url('/images/kellykapoor.png');
+  background-image: url('../images/kellykapoor.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 12rem;
 }
 
 #kelly:hover {
-  background-image: url('/images/kelly_name.svg');
+  background-image: url('../images/kelly_name.svg');
 }
 
 #darryl {
-  background-image: url('/images/darrylphilbin.png');
+  background-image: url('../images/darrylphilbin.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 12rem;
 }
 
 #darryl:hover {
-  background-image: url('/images/darryl_name.svg');
+  background-image: url('../images/darryl_name.svg');
 }
 
 #michael {
-  background-image: url('/images/michaelscott.png');
+  background-image: url('../images/michaelscott.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 2rem;
 }
 
 #michael:hover {
-  background-image: url('/images/michael_name.svg');
+  background-image: url('../images/michael_name.svg');
 }
 
 #kevin {
-  background-image: url('/images/kevinmalone.png');
+  background-image: url('../images/kevinmalone.png');
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 2rem;
 }
 
 #kevin:hover {
-  background-image: url('/images/kevin_name.svg');
+  background-image: url('../images/kevin_name.svg');
 }
 
 #bdaylabel {
@@ -202,7 +202,7 @@ h1.title {
   width: 300px;
 }
 
-.help {
+.helpModal {
   padding: 1rem;
 }
 
@@ -279,7 +279,7 @@ h1.title {
   flex-direction: column;
 }
  
-.modal .blanket {
+.modal .blanket, .helpModal {
     background-color: rgba(0, 0, 0, .8);
  
     height: 100vh;

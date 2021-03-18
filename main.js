@@ -11,6 +11,9 @@ const darrylObj = document.getElementById('darryl');
 const michaelObj = document.getElementById('michael');
 const kevinObj = document.getElementById('kevin');
 
+console.log("===================")
+console.log(document.URL)
+console.log("===================")
 angelaObj.addEventListener('click', function(evt) {
     console.log('angela button clicked' + evt.target.id);
     const idName = evt.target.id;
@@ -135,9 +138,10 @@ userSubmitObj.addEventListener('click', function(){
 function userPicked(whichOne) {
   console.log('userPicked called: ' + whichOne);
   switch (whichOne) {
-
+    // audio.play()
     case 'angela':
-      zDisplayObj.src = '/gif/angela.gif';
+      zDisplayObj.src = './gif/angela.gif';
+      audio.src = './audio/angelamartin_audio.mp3';
       zTitleObj.innerHTML = 'Angela Martin';
       zDateRangeObj.innerHTML = 'Mar. 21 ~ Apr. 19';
       zMoreInfoObj.innerHTML = '<p>Angela brings down harsh judgments on anyone who doesn’t live up to her standards of piousness – standards not even she lives up to. She dislikes excitement to the point of phobia and relishes in her dislike of her co-workers. Then again, if you happen to be a cat, Angela is a dream come true.</p>';
@@ -145,7 +149,8 @@ function userPicked(whichOne) {
       break;
 
     case 'stanley':
-      zDisplayObj.src = '/gif/stanley.gif';
+      zDisplayObj.src = './gif/stanley.gif';
+      audio.src = './audio/stanleyhudson_audio.mp3';
       zTitleObj.innerHTML = 'Stanley Hudson';
       zDateRangeObj.innerHTML = 'Apr. 20 ~ May. 20';
       zMoreInfoObj.innerHTML = '<p>Stanley is generally quiet and polite, but don’t cross him. When Michael gets too loose-jawed, Stanley can put him in his place with a single intimidating glance. But overall, Stanley mostly wants to be left alone to enjoy his simple pleasures of puzzles and pretzels.</p>';
@@ -153,7 +158,8 @@ function userPicked(whichOne) {
       break;
 
     case 'oscar':
-      zDisplayObj.src = '/gif/oscar.gif';
+      zDisplayObj.src = './gif/oscar.gif';
+      audio.src = './audio/oscarmartinez_audio.mp3';
       zTitleObj.innerHTML = 'Oscar Martinez';
       zDateRangeObj.innerHTML = 'May. 21 ~ Jun. 21';
       zMoreInfoObj.innerHTML = '<p>Oscar is pleasant but distant, and a bit of a know-it-all. In meetings, Oscar is inquisitive and critical. In conversation, he’s usually either friendly or pedantic. Like his co-worker Stanley, he’s generally uninterested in close relationships with his co-workers.</p>';
@@ -161,7 +167,8 @@ function userPicked(whichOne) {
       break;  
 
     case 'pam':
-      zDisplayObj.src = '/gif/pam.gif';
+      zDisplayObj.src = './gif/pam.gif';
+      audio.src = './audio/pambeesly_audio.mp3';
       zTitleObj.innerHTML = 'Pam Beesly';
       zDateRangeObj.innerHTML = 'Jun. 22 ~ Jul. 22';
       zMoreInfoObj.innerHTML = '<p>Pam is friendly and sweet, but shy and a bit mousy. Pam’s never been the type to take a stand or “go for it.” She says more with her face than with words. She tolerates without complaint. These aren’t qualities she admires about herself. She’s actively trying to change them.</p>';
@@ -169,7 +176,8 @@ function userPicked(whichOne) {
       break;
 
     case 'andy':
-      zDisplayObj.src = '/gif/andy.gif';
+      zDisplayObj.src = './gif/andy.gif';
+      audio.src = './audio/andybernard_audio.mp3';
       zTitleObj.innerHTML = 'Andy Bernard';
       zDateRangeObj.innerHTML = 'Jul. 23 ~ Aug. 22';
       zMoreInfoObj.innerHTML = '<p>Andy is clueless and often obnoxious, but never malicious. Andy gives people unwanted nicknames, goes on about his Ivy League education, and is completely tone-deaf on issues of class and race – and yet he’s a nice guy at heart. There’s a genuine goodness in him. Even his obliviousness is genuine. </p>';
@@ -177,7 +185,8 @@ function userPicked(whichOne) {
       break;
 
     case 'jim':
-      zDisplayObj.src = '/gif/jim.gif';
+      zDisplayObj.src = './gif/jim.gif';
+      audio.src = './audio/jimhalpert_audio.mp3';
       zTitleObj.innerHTML = 'Jim Halpert';
       zDateRangeObj.innerHTML = 'Aug. 23 ~ Sept. 22';
       zMoreInfoObj.innerHTML = '<p>Jim is charismatic and charming, and not in a creepy way. Jim is a great guy: funny, kind, mild-mannered. Jim is also dedicated as he is part of a rivalrous pranking on fellow salesman and invested in a romantic interest with the receptionist.</p>';
@@ -185,7 +194,8 @@ function userPicked(whichOne) {
       break;
     
     case 'phyllis':
-      zDisplayObj.src = '/gif/phyllis.gif';
+      zDisplayObj.src = './gif/phyllis.gif';
+      audio.src = './audio/phyllissmith_audio.mp3';
       zTitleObj.innerHTML = 'Phyllis Smith';
       zDateRangeObj.innerHTML = 'Sept. 23 ~ Oct. 23';
       zMoreInfoObj.innerHTML = '<p>Phyllis is quiet and nuturing. She rarely starts conflict but isn’t above blackmail – in fact, that’s how she took control of the Party Planning Committee. Phyllis sometimes lacks self-esteem, yet beams about her happy marriage. Beneath her quiet exterior lurks a strong, determined woman.</p>';
@@ -193,7 +203,8 @@ function userPicked(whichOne) {
       break;
 
     case 'dwight':
-      zDisplayObj.src = '/gif/dwight.gif';
+      zDisplayObj.src = './gif/dwight.gif';
+      audio.src = './audio/dwightschrute_audio.mp3';
       zTitleObj.innerHTML = 'Dwight Schrute';
       zDateRangeObj.innerHTML = 'Oct. 24 ~ Nov. 21';
       zMoreInfoObj.innerHTML = '<p>Dwight can easily be described as the most ambitious Dunder Mifflin employee as his goal in life was to become successful. Under the hard exterior, there’s a soft side to Dwight — something else that makes him appealing. But as lovable as Dwight can be, many things about him make no sense. </p>';
@@ -202,6 +213,7 @@ function userPicked(whichOne) {
 
     case 'kelly':
       zDisplayObj.src = '/gif/kelly.gif';
+      audio.src = './audio/kellykapoor_audio.mp3';
       zTitleObj.innerHTML = 'Kelly Kapoor';
       zDateRangeObj.innerHTML = 'Nov. 22 ~ Dec. 21';
       zMoreInfoObj.innerHTML = '<p>Kelly is always happy to provide needed distractions to anyone who’ll listen. We love Kelly because she loves who she is, and her lack of desire to be anything other than that should serve as an example for all to embrace the trivial, give in to the pleasures of gossip, and consider starting some of their own.</p>';
@@ -209,7 +221,8 @@ function userPicked(whichOne) {
       break;
 
     case 'darryl':
-      zDisplayObj.src = '/gif/darryl.gif';
+      zDisplayObj.src = './gif/darryl.gif';
+      audio.src = './audio/darrylphilbin_audio.mp3';
       zTitleObj.innerHTML = 'Darryl Philbin';
       zDateRangeObj.innerHTML = 'Dec. 22 ~ Jan. 19';
       zMoreInfoObj.innerHTML = '<p>Darryl is mellow and well-liked. Darryl is competent, ambitious, innovative, chill, funny and loves to take advantage of his boss. His rapport with the rest of the staff both in the office and warehouse is friendly. When given an opportunity, Darryl takes it and invests in it for the long run.</p>';
@@ -217,7 +230,8 @@ function userPicked(whichOne) {
       break;
 
     case 'michael':
-      zDisplayObj.src = '/gif/michael.gif';
+      zDisplayObj.src = './gif/michael.gif';
+      audio.src = './audio/michaelscott_audio.mp3';
       zTitleObj.innerHTML = 'Michael Scott';
       zDateRangeObj.innerHTML = 'Jan. 20 ~ Feb. 18';
       zMoreInfoObj.innerHTML = '<p>Michael is vain and oblivious, but well-meaning. He is often inappropriate and completely unaware that he’s rubbing people the wrong way. Yet just when you’re ready to write him off forever as a clueless buffoon, he does something nice for a friend to show that his heart’s ultimately in the right place.  </p>';
@@ -225,7 +239,8 @@ function userPicked(whichOne) {
       break;
 
     case 'kevin':
-      zDisplayObj.src = '/gif/kevin.gif';
+      zDisplayObj.src = './gif/kevin.gif';
+      audio.src = './audio/kevinmalone_audio.mp3';
       zTitleObj.innerHTML = 'Kevin Malone';
       zDateRangeObj.innerHTML = 'Feb. 19 ~ Mar. 20';
       zMoreInfoObj.innerHTML = '<p>Kevin is lovably dumb even though he thinks he is a genius. He’s somehow openly perverse yet completely harmless, even sweet. Kevin is charmingly oblivious, even when his cluelessness leads to backhanded compliments to his female co-workers. Nobody seems to mind that much; that’s just Kevin.</p>';
@@ -241,18 +256,25 @@ const modal = document.getElementById('modal');
 const closeModalObj = document.getElementById('btn-modal-close');
 closeModalObj.addEventListener('click', function(){
   modal.hidden = !modal.hidden;
+  // audio.pause()
 });
  
 const zDisplayObj = document.getElementById('zDisplayImg');
 const zTitleObj = document.getElementById('zTitle');
 const zDateRangeObj = document.getElementById('zDateRange');
 const zMoreInfoObj = document.getElementById('zMoreInfo');
+const audio = document.getElementById('audio');
 
 //HELP MODAL//
-const help = document.getElementsByClassName('help').item(0);
+const help = document.getElementsByClassName('helpButtonClass').item(0);
 console.log(help)
 const helpModal = document.getElementsByClassName('helpModal').item(0);
+console.log(helpModal)
 help.addEventListener('click', function(){
   helpModal.hidden = !helpModal.hidden;
 });
 
+const closeHelpModalObj = document.getElementById('close-help-modal');
+closeHelpModalObj.addEventListener('click', function(){
+  helpModal.hidden = !helpModal.hidden;
+});
