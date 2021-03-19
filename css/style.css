@@ -5,9 +5,8 @@ body {
   position: relative;
   background-color: #212121;
   background-repeat: no-repeat;
-  background-size: cover contain;
+  background-size: cover;
   margin: 0.8rem;
-  max-height:min-content;
 }
 
 h1.title {
